@@ -30,9 +30,8 @@ Il dataset comprende 13 variabili che descrivono le caratteristiche demografiche
    ### Analisi Statistica e Data Visualization (Python)
 5.   Driver del Successo (Correlation Heatmap): Quale variabile tra ore di studio, frequenza e sonno guida maggiormente il punteggio finale?
 6.   Difficoltà dell'Esame e Distribuzione (KDE Plot): La difficoltà dell'esame sposta la media dei voti o modifica la varianza?
-7.   Sonno vs Studio (Scatter Plot & Rendimenti Decrescenti): Studiare molte ore sacrificando il sonno porta a risultati peggiori?
-8.   Stabilità dei Metodi di Studio (Box Plot): Quale metodo di studio presenta meno outliers negativi e garantisce voti più stabili?
-9.   Analisi Demografica per Età e Genere (Bar Chart): Esistono differenze di rendimento legate all'età o al genere degli studenti?
+7.   Stabilità dei Metodi di Studio (Box Plot): Quale metodo di studio presenta meno outliers negativi e garantisce voti più stabili?
+8.   Analisi Demografica per Età e Genere (Bar Chart): Esistono differenze di rendimento legate all'età o al genere degli studenti?
 
 #### Dashboard Excel
 
@@ -171,6 +170,10 @@ KDE Plot (distribuzione) per confrontare i punteggi ottenuti in esami "Hard", "M
 - **Elevata Dispersione su *Hard*:** La curva blu (`hard`) mostra una forma decisamente più schiacciata ed estesa lungo tutto il supporto dei voti. Un esame difficile tende quindi ad **aumentare la varianza**: gli studenti si dividono in modo più netto tra chi riesce comunque a raggiungere ottimi risultati e chi subisce un calo drastico.
 - **Asimmetria Negativa su *Easy*:** La curva verde (`easy`) mostra una leggera asimmetria verso i punteggi più alti, con un prolungamento della densità nella fascia 70–90. Un esame facile agevola il raggiungimento di voti medio-alti per una quota leggermente maggiore di studenti.
 
-### 7. "Sonno vs Studio"
-Scatter Plot tra study_hours e exam_score. Usa il colore per indicare sleep_quality. Troppa fatica senza sonno peggiora i risultati?
+### 7. Visualizza la distribuzione dei voti per ogni study_method
+Quale metodo ha risultati più stabili?
+
+
+
+
 
