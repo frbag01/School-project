@@ -164,4 +164,13 @@ Crea una heatmap di correlazione tra ore di studio, frequenza, ore di sonno e pu
 ### 6.L'impatto della difficoltà dell'esame sulla distribuzione dei voti
 KDE Plot (distribuzione) per confrontare i punteggi ottenuti in esami "Hard", "Moderate" ed "Easy". La difficoltà sposta la media o aumenta solo la varianza?
 
+![kde plot per verificare la distribuzione dei voti](https://github.com/frbag01/School-project/blob/main/kde.png?raw=true)
+
+- **Invarianza della Media:** Il punteggio medio degli studenti rimane pressoché identico a prescindere dal livello di difficoltà dell'esame , confermando che la variabile `exam_difficulty` non sposta il baricentro globale dei voti.
+- **Concentrazione su *Moderate*:** La curva arancione (`moderate`) presenta la densità più elevata con un picco molto marcato intorno alla media (~60-65). Questo indica che negli esami di difficoltà media la stragrande maggioranza degli studenti ottiene un voto fortemente accentrato sul valore medio, con minore dispersione.
+- **Elevata Dispersione su *Hard*:** La curva blu (`hard`) mostra una forma decisamente più schiacciata ed estesa lungo tutto il supporto dei voti. Un esame difficile tende quindi ad **aumentare la varianza**: gli studenti si dividono in modo più netto tra chi riesce comunque a raggiungere ottimi risultati e chi subisce un calo drastico.
+- **Asimmetria Negativa su *Easy*:** La curva verde (`easy`) mostra una leggera asimmetria verso i punteggi più alti, con un prolungamento della densità nella fascia 70–90. Un esame facile agevola il raggiungimento di voti medio-alti per una quota leggermente maggiore di studenti.
+
+### 7. "Sonno vs Studio"
+Scatter Plot tra study_hours e exam_score. Usa il colore per indicare sleep_quality. Troppa fatica senza sonno peggiora i risultati?
 
