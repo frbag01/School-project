@@ -152,3 +152,11 @@ LIMIT 50
 
 Puoi vedere il codice principale qui: [1] [Python Script](https://github.com/frbag01/School-project/blob/main/school.py)
 
+### 5.Quali variabili guidano davvero il successo?
+Crea una heatmap di correlazione tra ore di studio, frequenza, ore di sonno e punteggio finale. Qual è il driver principale?
+
+
+- **`study_hours` è il Driver Principale ($r = +0,72$):** Le ore di studio rappresentano la variabile maggiormente associata ad un voto alto, mostrando una **correlazione positiva forte**. 
+- **`class_attendance` ha un Impatto Moderato ($r = +0,31$):** La frequenza alle lezioni mostra una **correlazione positiva moderata**.
+- **`sleep_hours` ha un Ruolo di Sostegno ($r = +0,13$):** Le ore di sonno mostrano una **correlazione positiva debole**. Sebbene un buon riposo sia fondamentale per evitare performance estreme negative (come evidenziato nell'analisi dei profili a rischio), il solo dormire di più non garantisce direttamente un voto elevato.
+- **Nota Metodologica (Correlazione vs Causazione):** È fondamentale sottolineare che **la correlazione non implica direttamente un rapporto di causa-effetto**. Ad esempio, gli studenti che studiano più ore potrebbero anche possedere una maggiore motivazione o un metodo di studio più efficace che influenza congiuntamente il risultato finale.
