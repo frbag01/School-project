@@ -184,3 +184,22 @@ Quale metodo ha risultati più stabili?
 ### 8. Analisi demografica e di genere 
 Bar chart categorico che mostri il punteggio medio per Genere ed Età. Esistono differenze statisticamente significative o il rendimento è uniforme?
 
+![barplot per confrontare genere e età](https://github.com/frbag01/School-project/blob/main/gender.png?raw=true)
+
+
+- **Sostanziale Stabilità Globale:** La media dei voti rimane estremamente omogenea in tutte le fasce d'età analizzate, fluttuando in un range ristretto tra **66,15** e **68,66** .
+- **Oscillazioni e Inversioni Puntuali:**
+  - A **17 anni** le studentesse mostrano il rendimento medio più alto del grafico (**68,66** vs **66,93** dei maschi).
+  - A **20 anni** il trend si inverte temporaneamente in favore degli studenti maschi (**67,53** vs **66,15**).
+  - Nelle età successive (21-23 anni) la situazione si stabilizza su differenze minime (< 0,5 punti)[cite: 2, 4].
+- **Valutazione di Significatività (Variazione Casuale):** Gli scarti rilevati tra i generi nelle diverse età sono molto ridotti e non mostrano un pattern strutturale o una tendenza lineare definita. Si tratta di lievi oscillazioni naturali e stocastiche dovute alla variabilità campionaria piuttosto che dell'effetto di un vero e proprio fattore demografico determinante.
+
+### 📊 Dashboard Excel e Analisi Dinamica (`filter dash`)
+
+Per consentire un'esplorazione flessibile dei risultati dello score, è stata implementata in Excel una **Dashboard interattiva condizionata daSlicer** , basata su Tabelle Pivot collegate alla base dati originale.
+
+Nelle sezioni `score medio` e `dashboard perf` si ricalcolano istantaneamente le medie in base ai filtri applicati dall'utente ( **facility score** , **age** e **gender**).
+
+Nella sezione `conditional` si ha un analisi per ogni utente in base a ore di sonno, studio e percentuale di presenze; il tutto utilizzando formattazione condizionale per i valori di score.
+
+📥 **[Clicca qui per scaricare la Dashboard Interattiva (ab.dash.xlsx)](ab.dash.xlsx)**
