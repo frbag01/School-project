@@ -173,7 +173,14 @@ KDE Plot (distribuzione) per confrontare i punteggi ottenuti in esami "Hard", "M
 ### 7. Visualizza la distribuzione dei voti per ogni study_method
 Quale metodo ha risultati più stabili?
 
+![boxplot per confrontare i metodi di studio](https://github.com/frbag01/School-project/blob/main/boxplot.png?raw=true)
 
 
+- **`Coaching` al Top per Distacco:** Analizzando il range interquartile (IQR), il **coaching** è nettamente il metodo più efficace: il suo 25° percentile ($Q_1 = 55,70$) è quasi pari alla mediana di altri metodi, e la sua mediana ($68,80$) supera di gran lunga quella di tutte le altre strategie.
+- **`Mixed` al Secondo Posto:** Il metodo misto si conferma la seconda opzione più valida, con il 75% degli studenti che supera la soglia di $51,00$ e un $Q_3$ solido pari a $77,60$.
+- **Sotto-performance di `Self-Study` e `Online Videos`:** Lo studio autonomo e i video online si dimostrano i metodi meno efficaci, registrando le mediane più basse del dataset (rispettivamente $58,70$ e $59,90$) e un $Q_1$ inferiore a 47 punti.
+- **Ampiezza e Stabilità dell'IQR:** L'ampiezza dell'intervallo interquartile (IQR) è quasi identica per tutti i metodi (~26,6 - 27,2 punti), indicando che il cambio di metodo **non riduce la dispersione interna dei voti, ma sposta l'intero blocco di rendimento verso livelli di punteggio più alti o più bassi**.
 
+### 8. Analisi demografica e di genere 
+Bar chart categorico che mostri il punteggio medio per Genere ed Età. Esistono differenze statisticamente significative o il rendimento è uniforme?
 
