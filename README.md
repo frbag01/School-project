@@ -149,3 +149,6 @@ LIMIT 50
 - **Impatto della Frizione Psicofisica:** Questi risultati posizionano gli studenti a forte deprivazione di sonno nella fascia di rendimento peggiore dell'intero dataset, dimostrando che il riposo insufficiente costituisce una vera e propria **barriera insuperabile al successo scolastico**.
 
 # PYTHON 
+
+Puoi vedere il codice principale qui: [1] [Python Script](https://github.com/frbag01/School-project/blob/main/school.py)
+
