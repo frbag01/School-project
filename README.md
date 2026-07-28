@@ -202,4 +202,4 @@ Nelle sezioni `score medio` e `dashboard perf` si ricalcolano istantaneamente le
 
 Nella sezione `conditional` si ha un analisi per ogni utente in base a ore di sonno, studio e percentuale di presenze; il tutto utilizzando formattazione condizionale per i valori di score.
 
-📥 **[Clicca qui per scaricare la Dashboard Interattiva (ab.dash.xlsx)](ab.dash.xlsx)**
+📥 **[Clicca qui per scaricare la Dashboard Interattiva (ab.dash.xlsx)](Cartel1.xlsx)**
