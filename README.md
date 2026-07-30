@@ -203,3 +203,8 @@ Nelle sezioni `score medio` e `dashboard perf` si ricalcolano istantaneamente le
 Nella sezione `conditional` si ha un analisi per ogni utente in base a ore di sonno, studio e percentuale di presenze; il tutto utilizzando formattazione condizionale per i valori di score.
 
 📥 **[Clicca qui per scaricare la Dashboard Interattiva (Schoolproject.xlsx)](Cartel1.xlsx)**
+
+# Conclusioni
+
+I fattori che determinano maggiormente l'andamento scolastico sembrano essere sia quelli di tipo didattico come la partecipazione al corso, metodo e ore di studio che quelli di altre tipologie come struttura del corso e ore di sonno.
+Sembra invece avere un effetto pressoché irrilevante l'età, il genere ed il gap tecnologico.
