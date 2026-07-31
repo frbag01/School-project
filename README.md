@@ -204,6 +204,10 @@ Nella sezione `conditional` si ha un analisi per ogni utente in base a ore di so
 
 📥 **[Clicca qui per scaricare la Dashboard Interattiva (Schoolproject.xlsx)](Cartel1.xlsx)**
 
+## Dashboard interattiva su Tableau Public
+
+📥 **[Clicca qui per scaricare la Dashboard Interattiva su Tableau Public (Schoolproject.xlsx)](https://public.tableau.com/views/DASHBOARD_17854915714450/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
 # Conclusioni
 
 I fattori che determinano maggiormente l'andamento scolastico sembrano essere sia quelli di tipo didattico come la partecipazione al corso, metodo e ore di studio che quelli di altre tipologie come struttura del corso e ore di sonno.
