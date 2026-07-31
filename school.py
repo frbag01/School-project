@@ -11,13 +11,6 @@ from datasets import load_dataset
 import matplotlib.pyplot as plt
 import seaborn as sns # Import seaborn for enhanced plotting
 
-# To load a local file, you first need to upload it to your Colab environment.
-# You can do this by clicking the folder icon on the left panel, then the upload icon.
-# Once uploaded, the file will be in the /content/ directory.
-
-# If the file 'Exam_Score_Prediction.csv' has been uploaded to the Colab session,
-# you can load it using its relative path.
-
 
 df = pd.read_csv('Exam_Score_Prediction.csv')
 df=df.dropna(how='all')
@@ -43,28 +36,9 @@ plt.show()
 
 
 
-
-
-
-
-
-
 #3. Il "Sonno vs Studio": Esiste un punto di rendimento decrescente?
 
 #Task: Crea un JointPlot o uno Scatter Plot tra study_hours e exam_score. Usa il colore per indicare sleep_quality. Troppa fatica senza sonno peggiora i risultati?
-
-# Importing Libraries
-import ast
-import pandas as pd
-from datasets import load_dataset
-import matplotlib.pyplot as plt
-
-# To load a local file, you first need to upload it to your Colab environment.
-# You can do this by clicking the folder icon on the left panel, then the upload icon.
-# Once uploaded, the file will be in the /content/ directory.
-
-# If the file 'Exam_Score_Prediction.csv' has been uploaded to the Colab session,
-# you can load it using its relative path.
 
 colori={'poor':'red','average':'yellow','good':'green'}
 
