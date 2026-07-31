@@ -206,7 +206,9 @@ Nella sezione `conditional` si ha un analisi per ogni utente in base a ore di so
 
 ## Dashboard interattiva su Tableau Public
 
-📥 **[Clicca qui per scaricare la Dashboard Interattiva su Tableau Public (Schoolproject.xlsx)](https://public.tableau.com/views/DASHBOARD_17854915714450/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+![Screenshot Dash](https://github.com/frbag01/School-project/blob/main/Dashboard%201.png?raw=true)
+
+📥 **[Clicca qui per scaricare la Dashboard Interattiva su Tableau Public (Tableaudash)](https://public.tableau.com/views/DASHBOARD_17854915714450/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 # Conclusioni
 
